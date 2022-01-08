@@ -1,0 +1,6 @@
+bases:
+- github.com/argoproj/argo-cd//manifests/cluster-install?ref=v2.2.2
+
+resources:
+- argocd-cert.yaml
+- argocd-server-ingress.yaml
